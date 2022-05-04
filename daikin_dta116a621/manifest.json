@@ -1,0 +1,12 @@
+{
+  "domain": "daikin_dta116a62",
+  "name": "Daikin DTA116A62 Adapter",
+  "documentation": "https://github.com/niykx/HA-DaikinDTA116A621",
+  "issue_tracker": "https://github.com/niykx/HA-DaikinDTA116A621/issues",
+  "requirements": ["pydta116a621==0.3.0"],
+  "ssdp": [],
+  "zeroconf": [],
+  "homekit": {},
+  "dependencies": [],
+  "codeowners": ["@jasongao180"]
+}
