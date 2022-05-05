@@ -9,6 +9,6 @@
   "ssdp": [],
   "zeroconf": [],
   "homekit": {},
-  "dependencies": {},
+  "dependencies": [],
   "codeowners": ["@jasongao180"]
 }
