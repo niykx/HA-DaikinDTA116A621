@@ -14,10 +14,10 @@ from . import DOMAIN as DAIKIN_DOMAIN, CONF_INDOOR_UNIT_GLOBAL_NAME, CONF_INDOOR
 def setup_platform(hass : HomeAssistant, config, add_devices, discovery_info=None):
     devices = []
     for name, unit in hass.data[DAIKIN_DOMAIN][CONF_INDOOR_UNITS].items():
-        devices.append(DTA116A62Climate(unit, name))
+        devices.append(DTA116A621Climate(unit, name))
     add_devices(devices)
 
-class DTA116A62Climate(ClimateDevice):
+class DTA116A621Climate(ClimateDevice):
     def __init__(self, api: IndoorUnit, name):
         """Initialize the climate device."""
         self._api= api
